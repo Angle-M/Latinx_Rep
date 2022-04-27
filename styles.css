@@ -356,7 +356,17 @@ Hero Section Css
 /* Mobile Responsive */
 @media screen and (max-width: 768px) {
     .main__container {
-        display:none ;
+        display:inline ;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
+    }
+
+    .main__container__article {
+        display: inline;
         grid-template-columns: auto;
         align-items: center;
         justify-self: center;
@@ -403,6 +413,7 @@ Hero Section Css
     .main__content p {
         margin-top: 2rem;
         font-size: 1.5rem;
+        display: inline;
     }
 
     .main__btn {
